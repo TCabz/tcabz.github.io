@@ -1,0 +1,85 @@
+body {
+  background: white;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ml16 {
+color: royalblue;
+padding: 40px 0;
+font-weight: 800;
+font-size: 2em;
+text-transform: uppercase;
+letter-spacing: 0.5em;
+overflow: hidden;
+}
+
+.ml16 .letter {
+display: inline-block;
+line-height: 1em;
+}
+#Header {
+  background: black;
+  padding: 20px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  transition: all 1.0s;
+  margin: auto;
+  width: auto;
+}
+
+#breedData {
+  background: white;
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+  transition: all 1.0s;
+  margin: auto;
+  width: 600px;
+}
+
+#breedImage {
+  background: white;
+  margin: auto;
+  width: 600px;
+}
+
+.slider-container {
+  width: 500px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.image-container {
+  width: 24000px;
+  height: 400px;
+  position: relative;
+  transition: left 2s;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+}
+
+.slider-image {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+.button-container {
+  top: -20px;
+  position: relative;
+}
+
+.slider-button {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#slider-image:
